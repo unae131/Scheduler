@@ -7,22 +7,28 @@
 
     <TextView
         android:id="@+id/todo_tv_from"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginRight="8dp"/>
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/todo_tv_dash"
+        android:text=" - "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"/>
 
     <TextView
         android:id="@+id/todo_tv_to"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginRight="8dp"/>
+        android:textSize="18dp"/>
 
 
     <TextView
         android:id="@+id/todo_tv_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.4"/>
+        android:textSize="18dp"
+        android:layout_marginLeft="8dp"/>
 </LinearLayout>
